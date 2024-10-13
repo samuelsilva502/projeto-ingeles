@@ -1,0 +1,107 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Fundo mais suave para melhor contraste */
+    color: #333;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 2rem; /* Aumenta o espaçamento do cabeçalho */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para o cabeçalho */
+}
+
+/* Estilo da navegação */
+nav {
+    background-color: #333;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #4CAF50; /* Cor de destaque no hover */
+}
+
+/* Estilo principal */
+main {
+    padding: 2rem; /* Aumenta o espaçamento interno */
+    max-width: 800px;
+    margin: 2rem auto; /* Adiciona mais espaço ao redor do conteúdo */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding-bottom: 4rem; /* Espaço extra no final para evitar sobreposição com o footer */
+}
+
+/* Títulos */
+h1, h2 {
+    color: #2c3e50;
+}
+
+h1 {
+    font-size: 2.5rem; /* Aumenta o tamanho do título principal */
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #4CAF50; /* Linha inferior nos subtítulos */
+    padding-bottom: 0.5rem;
+}
+
+/* Estilo das listas */
+ol, ul {
+    padding-left: 2rem; /* Mais espaço à esquerda das listas */
+    margin-bottom: 1.5rem; /* Espaço extra abaixo das listas */
+}
+
+/* Destaque de código e atalhos */
+code {
+    background-color: #e8e8e8;
+    padding: 0.2rem 0.4rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #333;
+    color: white;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
