@@ -1,23 +1,23 @@
-/* Estilo global */
+
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
+    line-height: 1.6; 
     margin: 0;
     padding: 0;
-    background-color: #f0f4f8; /* Fundo mais suave para melhor contraste */
+    background-color: #f0f4f8;
     color: #333;
 }
 
-/* Estilo do cabeçalho */
+
 header {
     background-color: #4CAF50;
     color: white;
     text-align: center;
-    padding: 2rem; /* Aumenta o espaçamento do cabeçalho */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para o cabeçalho */
+    padding: 2rem; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-/* Estilo da navegação */
+
 nav {
     background-color: #333;
     padding: 0.5rem;
@@ -43,27 +43,27 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #4CAF50; /* Cor de destaque no hover */
+    color: #4CAF50; 
 }
 
-/* Estilo principal */
+
 main {
-    padding: 2rem; /* Aumenta o espaçamento interno */
+    padding: 2rem;
     max-width: 800px;
-    margin: 2rem auto; /* Adiciona mais espaço ao redor do conteúdo */
+    margin: 2rem auto; 
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    padding-bottom: 4rem; /* Espaço extra no final para evitar sobreposição com o footer */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    padding-bottom: 4rem; 
 }
 
-/* Títulos */
+
 h1, h2 {
     color: #2c3e50;
 }
 
 h1 {
-    font-size: 2.5rem; /* Aumenta o tamanho do título principal */
+    font-size: 2.5rem; 
     margin-bottom: 1.5rem;
 }
 
@@ -71,17 +71,17 @@ h2 {
     font-size: 1.8rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    border-bottom: 2px solid #4CAF50; /* Linha inferior nos subtítulos */
+    border-bottom: 2px solid #4CAF50; 
     padding-bottom: 0.5rem;
 }
 
-/* Estilo das listas */
+
 ol, ul {
-    padding-left: 2rem; /* Mais espaço à esquerda das listas */
-    margin-bottom: 1.5rem; /* Espaço extra abaixo das listas */
+    padding-left: 2rem; 
+    margin-bottom: 1.5rem; 
 }
 
-/* Destaque de código e atalhos */
+
 code {
     background-color: #e8e8e8;
     padding: 0.2rem 0.4rem;
@@ -89,7 +89,7 @@ code {
     font-size: 1.1rem;
 }
 
-/* Rodapé */
+
 footer {
     text-align: center;
     padding: 1.5rem;
