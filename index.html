@@ -3,68 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Como Corrigir Problemas de Cache no Navegador</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Como Corrigir a Tela Azul no Windows (BSOD)</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Guia de Solução de Problemas: Erro de Cache no Navegador</h1>
-    </header>
 
+    <!-- Aba de Navegação -->
     <nav>
         <ul>
-            <li><a href="#descricao">Descrição do Problema</a></li>
+            <li><a href="#descricao">Descrição</a></li>
+            <li><a href="#causas">Causas Comuns</a></li>
             <li><a href="#solucao">Solução Passo a Passo</a></li>
-            <li><a href="#atalhos">Atalhos Rápidos</a></li>
-            <li><a href="#dicas">Dicas</a></li>
+            <li><a href="#dicas">Dicas Extras</a></li>
         </ul>
     </nav>
 
-    <main>
-        <section id="descricao">
-            <h2>Descrição do Problema</h2>
-            <p>O erro de cache ocorre quando o navegador exibe uma versão antiga da página, mesmo após atualizações no site. Isso pode resultar em informações desatualizadas ou páginas com erros de carregamento.</p>
-        </section>
+    <div class="container">
+        <h1 id="descricao">Como Corrigir a Tela Azul no Windows (BSOD)</h1>
 
-        <section id="solucao">
-            <h2>Solução Passo a Passo</h2>
-            <ol>
-                <li><strong>Abrir o Navegador:</strong> Acesse seu navegador de escolha (Chrome, Firefox, Edge).</li>
-                <li><strong>Entrar em Configurações:</strong>
-                    <ul>
-                        <li>No <strong>Chrome</strong>, clique nos três pontos no canto superior direito e selecione <em>Configurações</em>.</li>
-                        <li>No <strong>Firefox</strong>, clique nas três linhas no canto superior direito e escolha <em>Opções</em>.</li>
-                        <li>No <strong>Edge</strong>, clique nos três pontos no canto superior direito e selecione <em>Configurações</em>.</li>
-                    </ul>
-                </li>
-                <li><strong>Ir para "Privacidade e Segurança":</strong> Selecione "Limpar dados de navegação" (Chrome), "Limpar histórico recente" (Firefox) ou "Escolher o que limpar" (Edge).</li>
-                <li><strong>Selecionar "Imagens e arquivos em cache":</strong> Certifique-se de desmarcar as opções de histórico ou cookies se não quiser apagá-los.</li>
-                <li><strong>Clicar em "Limpar dados":</strong> Isso remove o cache antigo do navegador.</li>
-            </ol>
-        </section>
+        <h2>O Que é a Tela Azul?</h2>
+        <p>A "Tela Azul da Morte" (BSOD) é uma falha crítica do Windows que ocorre quando o sistema encontra um erro que não consegue resolver automaticamente. Esse problema pode causar a reinicialização do computador e, se persistente, pode indicar falhas graves de hardware ou software.</p>
 
-        <section id="atalhos">
-            <h2>Atalhos para Limpar Cache</h2>
-            <p>Você também pode usar os atalhos de teclado para forçar a atualização da página:</p>
+        <h2 id="causas">Causas Comuns:</h2>
+        <ul>
+            <li><strong>Drivers Desatualizados</strong>: Drivers desatualizados ou incompatíveis podem causar instabilidade no sistema.</li>
+            <li><strong>Problemas de Hardware</strong>: Componentes como memória RAM ou o disco rígido com defeito são causas recorrentes.</li>
+            <li><strong>Conflitos de Software</strong>: Programas instalados recentemente podem estar em conflito com o sistema operacional.</li>
+            <li><strong>Malware</strong>: Vírus ou malware podem danificar arquivos essenciais do sistema, levando ao erro.</li>
+            <li><strong>Overclocking</strong>: Configurações incorretas de overclocking podem comprometer a estabilidade do sistema.</li>
+        </ul>
+
+        <h2 id="solucao">Solução Passo a Passo</h2>
+        <ol class="steps">
+            <li><strong>Anote o Código de Erro</strong>: Quando a tela azul aparecer, anote o código de erro exibido na parte inferior da tela. Isso ajudará a identificar o problema específico.</li>
+            <li><strong>Reinicie o Computador</strong>: Após a ocorrência da tela azul, espere o Windows reiniciar automaticamente. Se o erro for temporário, o sistema pode corrigir-se sozinho após a reinicialização.</li>
+            <li><strong>Atualize seus Drivers</strong>: Acesse o Gerenciador de Dispositivos e verifique se há atualizações para drivers de vídeo, som e outros componentes importantes. Drivers desatualizados são uma causa comum de falhas.</li>
+            <li><strong>Verifique as Atualizações do Windows</strong>: Vá para Configurações > Atualização e Segurança e veja se há atualizações pendentes. Manter o Windows atualizado é crucial para evitar falhas.</li>
+            <li><strong>Verifique o Hardware</strong>: Use ferramentas de diagnóstico, como o teste de memória RAM e verificações de integridade do disco rígido, para identificar possíveis problemas de hardware.</li>
+            <li><strong>Desinstale Programas Recentes</strong>: Se a tela azul começou após a instalação de um novo programa, tente desinstalá-lo para verificar se ele está causando o erro.</li>
+            <li><strong>Desative o Overclocking</strong>: Se você fez overclocking no processador ou GPU, restaure as configurações padrão na BIOS.</li>
+            <li><strong>Use a Restauração do Sistema</strong>: Acesse as opções de Restauração do Sistema para retornar o Windows a um estado anterior, antes do problema ocorrer.</li>
+        </ol>
+
+        <div class="tips" id="dicas">
+            <h3>Dicas Extras:</h3>
             <ul>
-                <li><strong>Windows:</strong> <code>Ctrl + Shift + R</code> ou <code>Ctrl + F5</code></li>
-                <li><strong>Mac:</strong> <code>Command + Shift + R</code></li>
+                <li><strong>Modo de Segurança</strong>: Se o problema continuar, tente iniciar o Windows no Modo de Segurança. Isso permitirá que o sistema rode sem interferências de drivers ou programas problemáticos.</li>
+                <li><strong>Ferramentas de Diagnóstico</strong>: Utilize ferramentas como <code>WhoCrashed</code> ou <code>BlueScreenView</code> para obter mais detalhes sobre os erros que causaram a tela azul.</li>
+                <li><strong>Pesquise o Código de Erro</strong>: Utilize a internet para pesquisar o código de erro específico exibido na tela azul. Frequentemente, você encontrará soluções detalhadas baseadas nesse código.</li>
+                <li><strong>Atualização de BIOS</strong>: Em casos raros, atualizar a BIOS pode ajudar a resolver o problema, especialmente se o erro estiver relacionado a conflitos de hardware.</li>
             </ul>
-        </section>
-
-        <section id="dicas">
-            <h2>Dicas</h2>
-            <p>Se o problema persistir, tente:</p>
-            <ul>
-                <li>Reiniciar o navegador.</li>
-                <li>Desativar extensões de bloqueio de conteúdo.</li>
-                <li>Configurar o navegador para limpar o cache automaticamente ao fechar.</li>
-            </ul>
-        </section>
-    </main>
+        </div>
+    </div>
 
     <footer>
-        <p>&copy; 2024 Guia de Troubleshooting - Desenvolvido por [GRUPO 6]</p>
+        © 2024 Guia de Troubleshooting - Desenvolvido por [GRUPO 6]
     </footer>
+
 </body>
 </html>
