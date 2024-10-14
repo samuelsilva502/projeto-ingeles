@@ -26,6 +26,6 @@ Este projeto é um guia de troubleshooting que ajuda os usuários a resolverem o
    
 3. Navegue pelas seções usando a barra de navegação.
 
-##Contribuição
+## Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para enviar um pull request ou abrir uma issue.
